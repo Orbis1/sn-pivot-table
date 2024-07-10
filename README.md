@@ -92,6 +92,8 @@ To learn how to run a sn-pivot-table extension using nebula development server a
 `
 ERR_PNPM_FETCH_401  GET https://npm.pkg.github.com/download/@qlik-trial/sprout/3.5.0/763cebab0c556f50ee3dd6d1e3b04123f8614f3c: Unauthorized - 401
 `
+- [ ] install-able
+- [ ] build-able
 
 ## License
 

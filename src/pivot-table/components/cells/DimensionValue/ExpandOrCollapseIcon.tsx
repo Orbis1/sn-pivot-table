@@ -1,6 +1,5 @@
-import MinusOutlineIcon from "@qlik-trial/sprout/icons/react/MinusOutline";
-import PlusOutlineIcon from "@qlik-trial/sprout/icons/react/PlusOutline";
 import React from "react";
+import { MinusOutlineIcon, PlusOutlineIcon } from "../../../../components/Icon";
 import type { Cell, DataModel, ExpandOrCollapser } from "../../../../types/types";
 import { PLUS_MINUS_ICON_SIZE } from "../../../constants";
 import { useBaseContext } from "../../../contexts/BaseProvider";

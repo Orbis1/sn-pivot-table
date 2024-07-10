@@ -1,6 +1,6 @@
 import type { Direction } from "@mui/material/styles";
 import { createTheme } from "@mui/material/styles";
-import { createV5ThemeOptions } from "@qlik-trial/sprout/theme";
+import { createV5ThemeOptions } from "../components/Icon";
 
 export default function muiSetup(direction: Direction | undefined) {
   const sproutTheme = createV5ThemeOptions();

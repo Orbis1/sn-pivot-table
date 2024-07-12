@@ -1,5 +1,5 @@
 import type { stardust } from "@nebula.js/stardust";
-import { useFetch } from "@qlik/nebula-table-utils/lib/hooks";
+import { useFetch } from "orbis-nebula-table-utils/lib/hooks";
 import { Q_PATH } from "../constants";
 import { MAX_COLUMN_COUNT } from "../pivot-table/constants";
 import type { Model, PivotLayout } from "../types/QIX";

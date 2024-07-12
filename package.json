@@ -21,7 +21,9 @@
     "api-specifications",
     "core",
     "dist",
-    "sn-pivot-table-ext"
+    "sn-pivot-table-ext",
+    "sn-pivot-table.js",
+    "sn-pivot-table.qext"
   ],
   "scripts": {
     "build": "pnpm run locale:generate && node ./scripts/build.js --core --ext",
@@ -51,7 +53,7 @@
       "bash -c 'pnpm lint'",
       "bash -c 'pnpm types:check'"
     ],
-    "*": "bash -c 'pnpm format:check'"
+    "*": "bash -c 'pnpm format:write'"
   },
   "prettier": "@qlik/prettier-config",
   "eslintConfig": {
@@ -99,7 +101,6 @@
     "@nebula.js/stardust": "4.9.0",
     "@playwright/test": "1.40.1",
     "@qlik/eslint-config": "0.7.1",
-    "@qlik/nebula-table-utils": "2.6.7",
     "@qlik/prettier-config": "0.4.6",
     "@qlik/tsconfig": "0.2.3",
     "@rollup/plugin-typescript": "11.1.6",
@@ -125,6 +126,7 @@
     "jest-environment-jsdom": "29.7.0",
     "jest-junit": "16.0.0",
     "lint-staged": "15.2.0",
+    "orbis-nebula-table-utils": "2.7.0",
     "prettier": "3.2.2",
     "qlik-chart-modules": "0.59.0",
     "qlik-object-conversion": "0.16.4",

@@ -18,6 +18,6 @@ module.exports = {
       "../..",
     )}/node_modules/.pnpm/(?!(d3-color|@qlik-trial\\+sprout|@qlik\\+nebula-table-utils)@)`,
     /* or using relative pattern to match the second 'node_modules/' in 'node_modules/.pnpm/@scope+pkg-b@x.x.x/node_modules/@scope/pkg-b/' */
-    "node_modules/(?!.pnpm|d3-color|@qlik-trial/sprout|@qlik/nebula-table-utils)",
+    "node_modules/(?!.pnpm|d3-color|@qlik-trial/sprout|orbis-nebula-table-utils)",
   ],
 };

@@ -1,5 +1,5 @@
-import type { ExtendedTheme } from "@qlik/nebula-table-utils/lib/hooks/use-extended-theme/types";
-import { COLORING, getHoverColor } from "@qlik/nebula-table-utils/lib/utils";
+import type { ExtendedTheme } from "orbis-nebula-table-utils/lib/hooks/use-extended-theme/types";
+import { COLORING, getHoverColor } from "orbis-nebula-table-utils/lib/utils";
 import { Colors } from "../pivot-table/components/shared-styles";
 import {
   BOLD_FONT_WEIGHT,

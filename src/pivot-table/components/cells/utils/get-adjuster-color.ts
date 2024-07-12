@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unsafe-enum-comparison */
-import { COLORING } from "@qlik/nebula-table-utils/lib/utils";
 import { color } from "d3-color";
+import { COLORING } from "orbis-nebula-table-utils/lib/utils";
 import type { AdjusterCellInfo, StyleService } from "../../../../types/types";
 import { Colors } from "../../shared-styles";
 

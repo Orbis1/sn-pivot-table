@@ -1,7 +1,7 @@
 /* eslint jsx-a11y/click-events-have-key-events: 0, jsx-a11y/no-static-element-interactions: 0 */
 import type { stardust } from "@nebula.js/stardust";
-import HeadCellMenu, { MenuAvailabilityFlags } from "@qlik/nebula-table-utils/lib/components/HeadCellMenu";
-import type { SortDirection, SortingRelatedArgs } from "@qlik/nebula-table-utils/lib/components/HeadCellMenu/types";
+import HeadCellMenu, { MenuAvailabilityFlags } from "orbis-nebula-table-utils/lib/components/HeadCellMenu";
+import type { SortDirection, SortingRelatedArgs } from "orbis-nebula-table-utils/lib/components/HeadCellMenu/types";
 import React, { useRef } from "react";
 import { Locked } from "../../../components/Icon";
 import type { ChangeActivelySortedHeader, ChangeSortOrder, DataModel, HeaderCell } from "../../../types/types";

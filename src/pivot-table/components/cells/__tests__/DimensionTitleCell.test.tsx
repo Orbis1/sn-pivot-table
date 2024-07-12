@@ -1,7 +1,7 @@
 import type { stardust } from "@nebula.js/stardust";
-import { HEAD_CELL_MENU_BUTTON_CLASS } from "@qlik/nebula-table-utils/lib/constants";
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import { HEAD_CELL_MENU_BUTTON_CLASS } from "orbis-nebula-table-utils/lib/constants";
 import React from "react";
 import type { App, ExtendedDimensionInfo } from "../../../../types/QIX";
 import type { DataModel, HeaderCell } from "../../../../types/types";

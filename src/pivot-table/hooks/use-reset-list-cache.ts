@@ -1,4 +1,4 @@
-import { useOnPropsChange } from "@qlik/nebula-table-utils/lib/hooks";
+import { useOnPropsChange } from "orbis-nebula-table-utils/lib/hooks";
 import { useLayoutEffect } from "react";
 import type { VariableSizeList } from "react-window";
 import type { LayoutService, LeftDimensionData, TopDimensionData } from "../../types/types";

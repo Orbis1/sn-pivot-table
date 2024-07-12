@@ -1,5 +1,5 @@
-import type { ColumnWidth } from "@qlik/nebula-table-utils/lib/components/ColumnAdjuster";
-import { ColumnWidthType, ColumnWidthValues } from "@qlik/nebula-table-utils/lib/constants";
+import type { ColumnWidth } from "orbis-nebula-table-utils/lib/components/ColumnAdjuster";
+import { ColumnWidthType, ColumnWidthValues } from "orbis-nebula-table-utils/lib/constants";
 import type { BasicCellStyling, CellStyling } from "../../../types/types";
 
 export const getMeasureTextArgs = (mainStyling: CellStyling, additionalStyling?: BasicCellStyling) => {

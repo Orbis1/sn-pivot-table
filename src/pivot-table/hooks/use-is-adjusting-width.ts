@@ -1,4 +1,4 @@
-import { useOnPropsChange } from "@qlik/nebula-table-utils/lib/hooks";
+import { useOnPropsChange } from "orbis-nebula-table-utils/lib/hooks";
 import { useState } from "react";
 
 const useIsAdjustingWidth = (deps: unknown[]) => {

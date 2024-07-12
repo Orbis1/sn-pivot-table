@@ -1,6 +1,6 @@
-import type { ColumnWidth } from "@qlik/nebula-table-utils/lib/components/ColumnAdjuster";
-import { ColumnWidthType } from "@qlik/nebula-table-utils/lib/constants";
 import { renderHook } from "@testing-library/react";
+import type { ColumnWidth } from "orbis-nebula-table-utils/lib/components/ColumnAdjuster";
+import { ColumnWidthType } from "orbis-nebula-table-utils/lib/constants";
 import { Q_PATH } from "../../../constants";
 import { type ExtendedDimensionInfo, type ExtendedMeasureInfo, type Model } from "../../../types/QIX";
 import { ColumnWidthLocation, type AdjusterCellInfo, type LayoutService, type PageInfo } from "../../../types/types";

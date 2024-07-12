@@ -1,5 +1,5 @@
-import type { ColumnWidth } from "@qlik/nebula-table-utils/lib/components/ColumnAdjuster";
-import { useMeasureText, useOnPropsChange } from "@qlik/nebula-table-utils/lib/hooks";
+import type { ColumnWidth } from "orbis-nebula-table-utils/lib/components/ColumnAdjuster";
+import { useMeasureText, useOnPropsChange } from "orbis-nebula-table-utils/lib/hooks";
 import { useCallback, useState } from "react";
 import { PSEUDO_DIMENSION_KEY } from "../../../constants";
 import { ColumnWidthLocation, type HeaderCell } from "../../../types/types";

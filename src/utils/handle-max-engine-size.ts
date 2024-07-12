@@ -1,5 +1,5 @@
 import type { stardust } from "@nebula.js/stardust";
-import { ColumnWidthValues } from "@qlik/nebula-table-utils/lib/constants";
+import { ColumnWidthValues } from "orbis-nebula-table-utils/lib/constants";
 import { DEFAULT_CELL_HEIGHT } from "../pivot-table/constants";
 
 const MAX_ENGINE_PAGE_SIZE = 10_000;

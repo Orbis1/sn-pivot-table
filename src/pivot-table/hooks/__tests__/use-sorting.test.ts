@@ -1,5 +1,5 @@
-import type { SortDirection } from "@qlik/nebula-table-utils/lib/components/HeadCellMenu/types";
 import { renderHook } from "@testing-library/react";
+import type { SortDirection } from "orbis-nebula-table-utils/lib/components/HeadCellMenu/types";
 import type { ExtendedHyperCube, Model } from "../../../types/QIX";
 import type { HeaderCell } from "../../../types/types";
 import useSorting from "../use-sorting";

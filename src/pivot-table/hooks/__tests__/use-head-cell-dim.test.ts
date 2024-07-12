@@ -1,6 +1,6 @@
 import type { stardust } from "@nebula.js/stardust";
-import { COLUMN_ADJUSTER_CLASS } from "@qlik/nebula-table-utils/lib/constants";
 import { renderHook } from "@testing-library/react";
+import { COLUMN_ADJUSTER_CLASS } from "orbis-nebula-table-utils/lib/constants";
 import { act } from "react-dom/test-utils";
 import type { DataModel } from "../../../types/types";
 import { useHeadCellDim } from "../use-head-cell-dim";

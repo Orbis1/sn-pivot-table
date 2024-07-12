@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-props-no-spreading  */
 import { ThemeProvider } from "@mui/material/styles";
 import type { stardust } from "@nebula.js/stardust";
-import type { ExtendedTheme } from "@qlik/nebula-table-utils/lib/hooks/use-extended-theme/types";
+import type { ExtendedTheme } from "orbis-nebula-table-utils/lib/hooks/use-extended-theme/types";
 import React from "react";
 import { type Root } from "react-dom/client";
 import type { App } from "../types/QIX";

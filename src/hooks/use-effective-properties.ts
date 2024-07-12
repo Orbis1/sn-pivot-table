@@ -1,4 +1,4 @@
-import { useFetch } from "@qlik/nebula-table-utils/lib/hooks";
+import { useFetch } from "orbis-nebula-table-utils/lib/hooks";
 import type { Model, PivotLayout } from "../types/QIX";
 
 const useEffectiveProperties = (model: Model, layout: PivotLayout) =>

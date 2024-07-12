@@ -1,5 +1,5 @@
-import { COLUMN_ADJUSTER_CLASS } from "@qlik/nebula-table-utils/lib/constants";
 import { act, renderHook, waitFor } from "@testing-library/react";
+import { COLUMN_ADJUSTER_CLASS } from "orbis-nebula-table-utils/lib/constants";
 import { Q_PATH } from "../../../constants";
 import { NxSelectionCellType } from "../../../types/QIX";
 import type { Cell, ExtendedSelections, PageInfo } from "../../../types/types";

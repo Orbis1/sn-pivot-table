@@ -1,5 +1,5 @@
 import type { stardust } from "@nebula.js/stardust";
-import type { ExtendedTheme } from "@qlik/nebula-table-utils/lib/hooks/use-extended-theme/types";
+import type { ExtendedTheme } from "orbis-nebula-table-utils/lib/hooks/use-extended-theme/types";
 import type { ReactNode } from "react";
 import React, { createContext, useContext, useMemo } from "react";
 import type { App, Model } from "../../types/QIX";

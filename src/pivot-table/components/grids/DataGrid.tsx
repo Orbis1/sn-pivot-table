@@ -1,5 +1,5 @@
 /*  eslint-disable no-param-reassign */
-import { useOnPropsChange } from "@qlik/nebula-table-utils/lib/hooks";
+import { useOnPropsChange } from "orbis-nebula-table-utils/lib/hooks";
 import React, { memo, useLayoutEffect } from "react";
 import { VariableSizeGrid } from "react-window";
 import type {

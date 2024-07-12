@@ -1,4 +1,4 @@
-import type { ColumnWidth } from "@qlik/nebula-table-utils/lib/components/ColumnAdjuster";
+import type { ColumnWidth } from "orbis-nebula-table-utils/lib/components/ColumnAdjuster";
 import type { ActivelySortedColumn } from "./types";
 
 enum NxDimCellType {

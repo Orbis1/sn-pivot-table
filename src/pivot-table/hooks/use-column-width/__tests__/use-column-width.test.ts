@@ -1,11 +1,11 @@
-import { ColumnWidthType, ColumnWidthValues } from "@qlik/nebula-table-utils/lib/constants";
+import { act, renderHook } from "@testing-library/react";
+import { ColumnWidthType, ColumnWidthValues } from "orbis-nebula-table-utils/lib/constants";
 import {
   useMeasureText,
   type EstimateLineCount,
   type MeasureTextHook,
   type UseMeasureTextProps,
-} from "@qlik/nebula-table-utils/lib/hooks";
-import { act, renderHook } from "@testing-library/react";
+} from "orbis-nebula-table-utils/lib/hooks";
 import useColumnWidth from "..";
 import { PSEUDO_DIMENSION_INDEX } from "../../../../constants";
 import type { ExtendedDimensionInfo, ExtendedMeasureInfo } from "../../../../types/QIX";
@@ -20,11 +20,15 @@ import { createDimInfos } from "../../../data/__tests__/test-helper";
 import createHeadersData from "../../../data/headers-data";
 import { EXPAND_ICON_SIZE, LOCK_ICON_SIZE, MENU_ICON_SIZE, TOTAL_CELL_PADDING } from "../constants";
 
+type OptionsPropsMock = {
+  maxNbrLinesOfText?: number;
+};
+
 type MeasureTextMock = jest.MockedFunction<(text: string) => number>;
 type EstimateWidthMock = jest.MockedFunction<(length: number) => number>;
 type EstimateLineCountMock = jest.MockedFunction<EstimateLineCount>;
 
-jest.mock("@qlik/nebula-table-utils/lib/hooks");
+jest.mock("orbis-nebula-table-utils/lib/hooks");
 jest.mock("../../../contexts/StyleProvider");
 
 describe("useColumnWidth", () => {
@@ -32,7 +36,9 @@ describe("useColumnWidth", () => {
   let meaInfo: ExtendedMeasureInfo;
   let tableWidth: number;
   let percentageConversion: number;
-  let mockedUseMeasureText: jest.MockedFunction<(styling: UseMeasureTextProps) => MeasureTextHook>;
+  let mockedUseMeasureText: jest.MockedFunction<
+    (styling: UseMeasureTextProps, options?: OptionsPropsMock) => MeasureTextHook
+  >;
   let mockedMeasureText: MeasureTextHook;
   let mockedIsLeftDimension: jest.MockedFunction<(index: number) => boolean>;
   let mockedGetDimensionInfoIndex: jest.MockedFunction<(info: VisibleDimensionInfo) => number>;

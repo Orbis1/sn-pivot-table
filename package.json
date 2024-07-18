@@ -1,5 +1,5 @@
 {
-  "name": "@nebula.js/sn-pivot-table",
+  "name": "sn-pivot-table-dev",
   "version": "2.6.1",
   "description": "Display dimensions and measures as rows and columns in a table. Analyze data by multiple measures and in multiple dimensions at the same time. Use pivoting (rearranging the measures and dimensions) to get different views of the data.",
   "keywords": [
@@ -37,6 +37,7 @@
     "locale:verify": "node src/locale/tools/verify-translations.mjs",
     "prepare": "husky install",
     "sense": "nebula sense",
+    "serve": "nebula serve --build false",
     "spec": "npx @scriptappy/cli from-jsdoc -c ./scriptappy.config.js",
     "start": "pnpm run locale:generate && nebula serve  --type sn-pivot-table",
     "start:fixture": "pnpm run locale:generate && nebula serve --config ./nebula.rendering.config.js",
@@ -126,7 +127,7 @@
     "jest-environment-jsdom": "29.7.0",
     "jest-junit": "16.0.0",
     "lint-staged": "15.2.0",
-    "orbis-nebula-table-utils": "2.7.0",
+    "orbis-nebula-table-utils": "2.8.0",
     "prettier": "3.2.2",
     "qlik-chart-modules": "0.59.0",
     "qlik-object-conversion": "0.16.4",

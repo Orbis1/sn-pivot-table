@@ -17,16 +17,46 @@ export const COLORS = {
 };
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-export const Locked = (_props: React.SVGProps<SVGSVGElement>): JSX.Element => Icon("Locked");
+export const Locked = (props: React.SVGProps<SVGSVGElement>): JSX.Element => Icon("Locked");
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-export const MinusOutline = (_props: React.SVGProps<SVGSVGElement>): JSX.Element => Icon("MinusOutline");
+export const MinusOutline = (props: React.SVGProps<SVGSVGElement>): JSX.Element => Icon("MinusOutline");
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-export const PlusOutline = (_props: React.SVGProps<SVGSVGElement>): JSX.Element => Icon("PlusOutline");
+export const PlusOutline = (props: React.SVGProps<SVGSVGElement>): JSX.Element => Icon("PlusOutline");
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-export const MinusOutlineIcon = (_props: React.SVGProps<SVGSVGElement>): JSX.Element => Icon("MinusOutlineIcon");
+export const MinusOutlineIcon = (props: React.SVGProps<SVGSVGElement>): JSX.Element => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 16 16"
+    height="13"
+    fill="currentColor"
+    aria-hidden="true"
+    role="img"
+    opacity="1"
+    color="#333333"
+    data-testid="collapse-icon"
+    {...props}
+    // style="flex-shrink: 0; cursor: pointer; padding: 4px; margin-top: 2.165px;"
+  >
+    <path d="M8 15c-3.848 0-7-3.152-7-7s3.152-7 7-7 7 3.152 7 7-3.152 7-7 7m0 1c4.4 0 8-3.6 8-8s-3.6-8-8-8-8 3.6-8 8 3.6 8 8 8m4-7.5H4v-1h8z" />
+  </svg>
+);
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-export const PlusOutlineIcon = (_props: React.SVGProps<SVGSVGElement>): JSX.Element => Icon("PlusOutlineIcon");
+export const PlusOutlineIcon = (props: React.SVGProps<SVGSVGElement>): JSX.Element => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 16 16"
+    height="13"
+    fill="currentColor"
+    aria-hidden="true"
+    role="img"
+    opacity="1"
+    color="#333333"
+    data-testid="expand-icon"
+    {...props}
+  >
+    <path d="M8 15c-3.848 0-7-3.152-7-7s3.152-7 7-7 7 3.152 7 7-3.152 7-7 7m0 1c4.4 0 8-3.6 8-8s-3.6-8-8-8-8 3.6-8 8 3.6 8 8 8m4-7.5H4v-1h8zM8.5 4v8h-1V4z" />
+  </svg>
+);

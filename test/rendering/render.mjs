@@ -10,13 +10,11 @@ import createPlaywright from "./utils/playwright.mjs";
 import createNebulaRoutes from "./utils/routes.mjs";
 
 import { fileURLToPath } from "url";
-const __dirname = fileURLToPath(new URL(".", import.meta.url));
-console.log(__dirname);
-
-const dirname = path.dirname(new URL(import.meta.url).pathname);
+const dirname = fileURLToPath(new URL(".", import.meta.url)); // for windows
+// const dirname = path.dirname(new URL(import.meta.url).pathname);
 
 const paths = {
-  fixtures: path.resolve(__dirname, "__fixtures__"),
+  fixtures: path.resolve(dirname, "__fixtures__"),
 };
 
 // Set a small viewport size to more easily be able to trigger scenarios with "too" long labels

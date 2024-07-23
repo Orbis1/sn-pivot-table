@@ -6,14 +6,15 @@ export const createV5ThemeOptions = () => {
   const palette = {};
   return { palette, components: { MuiTable: { styleOverrides: { root: {} } } } };
 };
+
 export const COLORS = {
-  GREYSCALE_100: "100",
-  GREYSCALE_95: "95",
-  GREYSCALE_90: "90",
-  GREYSCALE_85: "85",
-  GREYSCALE_70: "70",
-  GREYSCALE_50: "50",
-  GREYSCALE_20: "20",
+  GREYSCALE_100: "#ffffff",
+  GREYSCALE_95: "#ffff27",
+  GREYSCALE_90: "#ffff28",
+  GREYSCALE_85: "#ffff29",
+  GREYSCALE_50: "#ffff30",
+  GREYSCALE_70: "#ffff31",
+  GREYSCALE_20: "#ffff32",
 };
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -38,7 +39,6 @@ export const MinusOutlineIcon = (props: React.SVGProps<SVGSVGElement>): JSX.Elem
     color="#333333"
     data-testid="collapse-icon"
     {...props}
-    // style="flex-shrink: 0; cursor: pointer; padding: 4px; margin-top: 2.165px;"
   >
     <path d="M8 15c-3.848 0-7-3.152-7-7s3.152-7 7-7 7 3.152 7 7-3.152 7-7 7m0 1c4.4 0 8-3.6 8-8s-3.6-8-8-8-8 3.6-8 8 3.6 8 8 8m4-7.5H4v-1h8z" />
   </svg>

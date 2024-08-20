@@ -127,7 +127,7 @@
     "jest-environment-jsdom": "29.7.0",
     "jest-junit": "16.0.0",
     "lint-staged": "15.2.0",
-    "orbis-nebula-table-utils": "2.8.3",
+    "orbis-nebula-table-utils": "^2.8.6",
     "prettier": "3.2.2",
     "qlik-chart-modules": "0.59.0",
     "qlik-object-conversion": "0.16.4",

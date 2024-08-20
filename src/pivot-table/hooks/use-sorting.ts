@@ -1,4 +1,4 @@
-import type { HeaderData, SortDirection } from "@qlik/nebula-table-utils/lib/components/HeadCellMenu/types";
+import type { HeaderData, SortDirection } from "orbis-nebula-table-utils/lib/components/HeadCellMenu/types";
 import { useMemo } from "react";
 import type { ExtendedHyperCube, Model } from "../../types/QIX";
 import type { ChangeActivelySortedHeader, ChangeSortOrder, HeaderCell } from "../../types/types";

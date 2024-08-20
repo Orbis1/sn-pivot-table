@@ -9,7 +9,9 @@ import events from "./utils/events.mjs";
 import createPlaywright from "./utils/playwright.mjs";
 import createNebulaRoutes from "./utils/routes.mjs";
 
-const dirname = path.dirname(new URL(import.meta.url).pathname);
+import { fileURLToPath } from "url";
+const dirname = fileURLToPath(new URL(".", import.meta.url)); // for windows
+// const dirname = path.dirname(new URL(import.meta.url).pathname);
 
 const paths = {
   fixtures: path.resolve(dirname, "__fixtures__"),

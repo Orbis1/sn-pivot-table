@@ -1,4 +1,4 @@
-import type { ExtendedTheme } from "@qlik/nebula-table-utils/lib/hooks/use-extended-theme/types";
+import type { ExtendedTheme } from "orbis-nebula-table-utils/lib/hooks/use-extended-theme/types";
 import { Colors } from "../../pivot-table/components/shared-styles";
 import { DEFAULT_FONT_FAMILY } from "../../pivot-table/constants";
 import type { Component, PaletteColor } from "../../types/QIX";

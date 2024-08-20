@@ -1,5 +1,5 @@
 import type { stardust } from "@nebula.js/stardust";
-import { PaginationFooter } from "@qlik/nebula-table-utils/lib/components";
+import { PaginationFooter } from "orbis-nebula-table-utils/lib/components";
 import React from "react";
 import type { PageInfo, Rect } from "../../types/types";
 import { useBaseContext } from "../contexts/BaseProvider";

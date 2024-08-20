@@ -1,5 +1,5 @@
 /*  eslint-disable no-param-reassign */
-import type { ColumnWidth } from "@qlik/nebula-table-utils/lib/components/ColumnAdjuster";
+import type { ColumnWidth } from "orbis-nebula-table-utils/lib/components/ColumnAdjuster";
 import { useCallback, useMemo } from "react";
 import { Q_PATH } from "../../constants";
 import type { Model } from "../../types/QIX";

@@ -1,6 +1,6 @@
 import type { stardust } from "@nebula.js/stardust";
-import { COLUMN_ADJUSTER_CLASS } from "@qlik/nebula-table-utils/lib/constants";
 import { render, screen } from "@testing-library/react";
+import { COLUMN_ADJUSTER_CLASS } from "orbis-nebula-table-utils/lib/constants";
 import React from "react";
 import type { AdjusterCellInfo, DataModel, ExtendedSelections } from "../../../../types/types";
 import TestWithProvider from "../../../__tests__/test-with-providers";

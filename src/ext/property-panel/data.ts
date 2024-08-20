@@ -1,4 +1,4 @@
-import { ColumnWidthType, ColumnWidthValues } from "@qlik/nebula-table-utils/lib/constants";
+import { ColumnWidthType, ColumnWidthValues } from "orbis-nebula-table-utils/lib/constants";
 import { CLIENT_IM_5851_MEASURE_FORMATTING } from "../../constants/flags";
 import { type DimensionOrMeasureDef } from "../../types/QIX";
 import { AttrExprInfoIDs, type Galaxy } from "../../types/types";

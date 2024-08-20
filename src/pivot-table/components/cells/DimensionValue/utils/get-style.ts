@@ -1,4 +1,4 @@
-import { getHoverColor as getContrastingColor } from "@qlik/nebula-table-utils/lib/utils";
+import { getHoverColor as getContrastingColor } from "orbis-nebula-table-utils/lib/utils";
 import type { Cell, StyleService } from "../../../../../types/types";
 import { BOLD_FONT_WEIGHT } from "../../../../constants";
 

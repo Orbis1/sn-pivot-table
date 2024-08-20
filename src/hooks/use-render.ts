@@ -11,7 +11,7 @@ import {
   useSelections,
   useStaleLayout,
 } from "@nebula.js/stardust";
-import { useExtendedTheme, useReactRoot, useWaitForFonts } from "@qlik/nebula-table-utils/lib/hooks";
+import { useExtendedTheme, useReactRoot, useWaitForFonts } from "orbis-nebula-table-utils/lib/hooks";
 import render from "../pivot-table/Root";
 import createStyleService from "../services/style-service";
 import type { Model, PivotLayout } from "../types/QIX";

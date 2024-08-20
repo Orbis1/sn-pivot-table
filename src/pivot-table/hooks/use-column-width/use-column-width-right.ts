@@ -1,5 +1,5 @@
-import { ColumnWidthType, ColumnWidthValues } from "@qlik/nebula-table-utils/lib/constants";
-import { useMeasureText } from "@qlik/nebula-table-utils/lib/hooks";
+import { ColumnWidthType, ColumnWidthValues } from "orbis-nebula-table-utils/lib/constants";
+import { useMeasureText } from "orbis-nebula-table-utils/lib/hooks";
 import { useCallback, useMemo } from "react";
 import { PSEUDO_DIMENSION_INDEX } from "../../../constants";
 import { GRID_BORDER } from "../../constants";

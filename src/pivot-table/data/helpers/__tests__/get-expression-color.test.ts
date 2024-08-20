@@ -1,4 +1,4 @@
-import { COLORING } from "@qlik/nebula-table-utils/lib/utils";
+import { COLORING } from "orbis-nebula-table-utils/lib/utils";
 import type { AttrExprInfoIndex } from "../../../../types/types";
 import getExpressionColor from "../get-expression-color";
 

@@ -1,4 +1,4 @@
-import { PAGINATION_HEIGHT } from "@qlik/nebula-table-utils/lib/constants";
+import { PAGINATION_HEIGHT } from "orbis-nebula-table-utils/lib/constants";
 import { useMemo } from "react";
 import type { LayoutService, Rect } from "../../types/types";
 import { DISCLAIMER_HEIGHT } from "../constants";

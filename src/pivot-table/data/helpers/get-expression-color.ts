@@ -1,4 +1,4 @@
-import { COLORING, isDarkColor, toRGB } from "@qlik/nebula-table-utils/lib/utils";
+import { COLORING, isDarkColor, toRGB } from "orbis-nebula-table-utils/lib/utils";
 import type { AttrExprInfoIndex } from "../../../types/types";
 
 const getContrastingColor = (color: string | null, background: string | null) => {

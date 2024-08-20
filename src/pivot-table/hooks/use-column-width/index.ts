@@ -1,4 +1,4 @@
-import { useMeasureText } from "@qlik/nebula-table-utils/lib/hooks";
+import { useMeasureText } from "orbis-nebula-table-utils/lib/hooks";
 import { useCallback, useEffect } from "react";
 import { GRID_BORDER } from "../../constants";
 import { useStyleContext } from "../../contexts/StyleProvider";

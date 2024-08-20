@@ -1,4 +1,4 @@
-import ColumnAdjuster, { type ColumnWidth } from "@qlik/nebula-table-utils/lib/components/ColumnAdjuster";
+import ColumnAdjuster, { type ColumnWidth } from "orbis-nebula-table-utils/lib/components/ColumnAdjuster";
 import React, { useState } from "react";
 import type { AdjusterCellInfo, DataModel } from "../../../types/types";
 import { useBaseContext } from "../../contexts/BaseProvider";

@@ -1,5 +1,5 @@
-import { PAGINATION_HEIGHT } from "@qlik/nebula-table-utils/lib/constants";
 import { renderHook } from "@testing-library/react";
+import { PAGINATION_HEIGHT } from "orbis-nebula-table-utils/lib/constants";
 import type { LayoutService, Rect } from "../../../types/types";
 import { DISCLAIMER_HEIGHT } from "../../constants";
 import useTableRect, { PAGINATION_FOOTER_BORDER } from "../use-table-rect";
